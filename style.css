@@ -1,3 +1,7 @@
+* {
+  /* ounga */
+}
+
 body {
   font-family: sans-serif;
   color: #444;
@@ -125,3 +129,13 @@ a:active {
 footer p {
   color: green;
 } */
+
+/* 
+
+nav a:link{
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
