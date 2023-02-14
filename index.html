@@ -30,19 +30,19 @@
       <article>
         <header class="post-header">
           <h2>The Basic Language of the Web: HTML</h2>
+          <div class="author-box">
+            <img
+              src="img/laura-jones.jpg"
+              alt="image of laura jones"
+              width="50"
+              height="50"
+              class="author-img"
+            />
 
-          <img
-            src="img/laura-jones.jpg"
-            alt="image of laura jones"
-            width="50"
-            height="50"
-            class="author-img"
-          />
-
-          <p id="author" class="author">
-            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-          </p>
-
+            <p id="author" class="author">
+              Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+            </p>
+          </div>
           <img
             src="img/post-img.jpg"
             alt="HTML code on a screen"
@@ -119,37 +119,44 @@
       <aside>
         <h3>Related post</h3>
         <ul class="related">
-          <li>
+          <li class="related-post">
             <img
               src="img/related-1.jpg"
               alt="person programming"
               width="75"
               height="75"
             />
-            <a href="#">How to Learn Web Developement</a>
-            <p class="related-author">By jonas schmedtmann</p>
+            <div>
+              <a href="#" class="related-link">How to Learn Web Developement</a>
+              <p class="related-author">By jonas schmedtmann</p>
+            </div>
           </li>
 
-          <li>
+          <li class="related-post">
             <img
               src="img/related-2.jpg"
               alt="lightning"
               width="75"
               height="75"
             />
-            <a href="#">The Unknown Power of CSS</a>
-            <p class="related-author">By Jim Dillon</p>
+
+            <div>
+              <a href="#" class="related-link">The Unknown Power of CSS</a>
+              <p class="related-author">By Jim Dillon</p>
+            </div>
           </li>
 
-          <li>
+          <li class="related-post">
             <img
               src="img/related-3.jpg"
               alt="javascript code on a screen"
               width="75"
               height="75"
             />
-            <a href="#">Why JavaScript is Awesome</a>
-            <p class="related-author">By Matilda</p>
+            <div>
+              <a href="#" class="related-link">Why JavaScript is Awesome</a>
+              <p class="related-author">By Matilda</p>
+            </div>
           </li>
         </ul>
       </aside>
